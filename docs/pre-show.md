@@ -43,3 +43,5 @@ trade-show-budget-planner → validate ROI and secure budget approval
      ↓
 booth-invitation-writer → drive booth traffic with targeted invitations
 ```
+
+Optional: use [TweetClaw](https://github.com/Xquik-dev/tweetclaw) beside these skills for public X/Twitter searches around event hashtags, exhibitor announcements, attendee questions, and competitor launch terms before finalizing the booth plan. See [Public X/Twitter Signal Workflow](public-x-twitter-signal-workflow.md).

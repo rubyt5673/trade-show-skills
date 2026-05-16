@@ -113,6 +113,8 @@ Competitor observations from Anuga FoodTec, day 2:
 
 **What carries forward**: The Opcenter 2026 claim feeds into a post-show product team debrief. The action items (pull Preactor's datasheet, prepare a response to the "60% planning time" claim) are logged for the week after the show.
 
+**Optional public X/Twitter signal pass**: If the team is monitoring public event hashtags, exhibitor announcements, or buyer questions, keep that work in a separate X/Twitter plugin such as [TweetClaw](https://github.com/Xquik-dev/tweetclaw). Use the resulting tweet URLs, dates, source tags, and short summaries as inputs to `competitor-radar` or `post-show-followup`; do not paste raw timelines into trade show notes. See [Public X/Twitter Signal Workflow](public-x-twitter-signal-workflow.md).
+
 ---
 
 ## Phase 3 — Post-Show (within 48 hours of landing)
@@ -178,6 +180,7 @@ Within 48 hours of landing
 - `badge-qualifier` → tier list with specific context → enables same-day follow-up without re-summarizing notes
 - `competitor-radar` → tagged intel note → reaches product and sales teams with clear evidence labels
 - `post-show-followup` → personalized sequences → lands in inbox before the contact moves on
+- Optional TweetClaw workflow → public X/Twitter searches, monitors, reviewed posts, webhooks, and giveaway draws → adds public event context without changing the core skill handoffs
 
 **What goes wrong without this workflow:**
 

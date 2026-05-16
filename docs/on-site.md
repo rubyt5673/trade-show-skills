@@ -46,6 +46,10 @@ Post-show: post-show-followup → send tiered follow-up sequences within 48 hour
 
 ## Practical Notes
 
+**Public X/Twitter signals**
+
+For public event hashtags, exhibitor announcements, booth-number mentions, or attendee questions, use a dedicated X/Twitter plugin such as [TweetClaw](https://github.com/Xquik-dev/tweetclaw) beside these skills. Keep only concise evidence in this repo's workflow: query, date, tweet URL or ID, author handle, observation tag, and why it matters. See [Public X/Twitter Signal Workflow](public-x-twitter-signal-workflow.md).
+
 **When to qualify in real time vs. batch**
 
 For Hot leads (agreed on a next step, asked about pricing), qualify immediately after the conversation while the context is fresh. For badge scans and brief encounters, batch them at the end of the day — the context won't decay as much, and interrupting the show day to process Cold leads isn't worth it.

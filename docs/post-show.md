@@ -24,6 +24,8 @@ post-show-followup → classify leads and generate sequences
 Load into HubSpot / Salesforce with merge tags → send
 ```
 
+Optional: use [TweetClaw](https://github.com/Xquik-dev/tweetclaw) for public X/Twitter searches, tweet reply review, monitor alerts, webhooks, reviewed post tweets or replies, and giveaway draws after the show. Keep that evidence separate from CRM notes unless the team has a clear reason to store the tweet URL or ID. See [Public X/Twitter Signal Workflow](public-x-twitter-signal-workflow.md).
+
 ---
 
 ## The 48-Hour Rule
